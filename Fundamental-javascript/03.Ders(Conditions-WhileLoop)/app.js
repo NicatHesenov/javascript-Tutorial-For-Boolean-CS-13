@@ -12,6 +12,11 @@ if (includeNumber === 0) {
   log("Deaktive");
 }
 
+// Problem - 2.
+// 	Verilmiş 3 ədədin Ortalamasını tapan .
+// 	və həmin ortalama 20 dən kiçik olarsa “Aktiv”
+// 	20 -dən böyük olarsa Deaktiv yazılsın
+
 let number = 5;
 let notificattion;
 
