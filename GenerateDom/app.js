@@ -17,7 +17,7 @@ inputPassword.addEventListener("input", function () {
 // // Qeyd HTML hissəyə   maxlength="6"  yazaraq simvolu 6 ilə sərhədliyə bilərik
 
 function changeColor() {
-  // Rastgele bir renk oluştur
+
   const randomColor = Math.floor(Math.random() * 16777215).toString(16);
 
   document.body.style.backgroundColor = "#" + randomColor;
