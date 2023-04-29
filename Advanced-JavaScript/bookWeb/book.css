@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+.nav {
+  background-image: linear-gradient(to right, #ff7854, #ff5079);
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 100%;
+}
+
+.logo {
+  height: 97px;
+  margin-left: 210px;
+}
+
+.head-nav .discover-nav {
+  color: #ffff;
+  margin-left: 49px;
+}
+
+.nav-navbar .my-nav {
+  margin-left: 640px;
+  color: #ffff;
+  font-size: 18px;
+}
+
+.head-input {
+  margin-left: 49px;
+  max-width: 600px;
+  height: 39px;
+  display: flex;
+}
+
+.head-input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 15px;
+  width: 300px;
+  border-radius: 4px;
+}
+button {
+  background-color: #17a288;
+  padding: 10px 13px;
+  border: none;
+  outline: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.fa {
+  color: #ffff;
+  max-width: 100px;
+  height: 39px;
+}
+
+.section-container {
+  position: absolute;
+  margin-top: 3em;
+
+  width: 100%;
+  background-image: linear-gradient(to right, #ff7854, #ff5079);
+}
+/* .div-container {
+  background-image: linear-gradient(to right, #ff7854, #ff5079);
+} */
+.taxt {
+  position: relative;
+  float: right;
+  margin-top: 10em;
+  margin-right: 203px;
+}
+
+.img-phone {
+  position: absolute;
+  margin-left: 220px;
+  top: -102px;
+  z-index: 1;
+}
+
+.down-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #8ea2b7;
+  height: 150px;
+
+  position: absolute;
+  bottom: -2024px;
+}
+
+/* .down-container {
+  position: absolute;
+  bottom: -431px;
+  height: 250px;
+  background-color: #8ea2b7;
+  width: 100%;
+} */
+
+.google-app {
+  margin-right: 370px;
+}
+
+.app-store {
+  margin-left: 30px;
+}
+
+.img-phone .taxt {
+  position: relative;
+  margin-top: 330px;
+}
+
+.introducing {
+  position: relative;
+  bottom: 168px;
+  font-size: 30px;
+
+  color: #f1ebeb;
+}
+
+.manybook {
+  position: absolute;
+  bottom: 131px;
+  font: normal normal bold 88px/134px "Spartan", sans-serif;
+  color: #fff;
+}
+
+.best-experience {
+  position: absolute;
+  bottom: 116px;
+  margin-left: 20px;
+  color: #fff;
+  font: normal normal normal 30px/36px "Spartan", sans-serif;
+}
+.free-dowland {
+  position: relative;
+  margin-left: 25px;
+  color: #fff;
+  font: normal normal normal 17px/20px "Spartan", sans-serif;
+  letter-spacing: 0.85px;
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+  bottom: 20px;
+}
+
+.now-available {
+  position: relative;
+  font: normal normal 30px/30px "Spartan", sans-serif;
+  color: #fff;
+  margin-left: 351px;
+  bottom: 31px;
+}
+
+.footer-container {
+  width: 100%;
+
+  margin-top: 77rem;
+  background-color: #c5375a;
+  height: 20rem;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.list {
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 50px;
+}
+
+.list-group {
+  color: #fff;
+  list-style: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+.footer-list {
+  margin-top: 30px;
+}
+
+.advertical {
+  margin-top: 26px;
+  margin-left: 227px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.term-privacy {
+  margin-left: 1390px;
+  margin-top: -19px;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+.term {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4);
+}
+.privacy {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4);
+}
+.text-container {
+  margin-bottom: 20rem;
+}
+
+.footer-line {
+  margin-top: 48px;
+  max-width: 1357px;
+  opacity: 0.2;
+  background-image: #b93455;
+}
+
+.books--daily--card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 692px;
+  width: 1828px;
+}
+
+.card--head {
+  margin: 50px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  max-width: 173px;
+}
+.books--card {
+  width: 309px;
+  gap: 30px;
+}
+.card--body h4 {
+  margin: 50px;
+
+  width: 50%;
+}
+
+.card--author {
+  margin: 50px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.book-img {
+  max-width: 175px;
+}
